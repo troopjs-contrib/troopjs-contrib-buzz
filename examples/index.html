@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<fieldset data-weave="examples/player" data-url="./juicy.mp3" data-autoplay="false">
+
+  <legend>
+    <time class="played"></time>/<time class="duration"></time>
+  </legend>
+
+  <progress class="progress" value="0" max="100"></progress>
+  <input class="volume" type="range" value="1" min="0" max="100" step="1">
+  <button data-action="play" disabled="">play</button>
+  <button data-action="pause" disabled="">pause</button>
+  <button data-action="play-pause" disabled="">play-pause</button>
+
+  <div class="error"></div>
+</fieldset>
+
+<script type="text/javascript" src="../bower_components/requirejs/require.js" data-main="../bootstrap.js"></script>
+</body>
+</html>

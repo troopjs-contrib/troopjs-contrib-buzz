@@ -1,0 +1,35 @@
+{
+  "name": "troopjs-contrib-buzz",
+  "version": "0.0.0",
+  "homepage": "https://github.com/troopjs-contrib/troopjs-contrib-buzz",
+  "authors": [
+    "Mikael Karon"
+  ],
+  "description": "TroopJS wrapper for buzz",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "troopjs",
+    "buzz"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples"
+  ],
+  "dependencies": {
+    "buzz": "~1.1",
+    "troopjs": "3.0.0-pr.2+fa7fcdb"
+  },
+  "devDependencies": {
+    "requirejs": "2.1.14"
+  },
+  "resolutions": {
+    "requirejs": "2.1.14"
+  }
+}
